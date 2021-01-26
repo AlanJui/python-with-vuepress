@@ -1,10 +1,7 @@
 {
-  "venvPath": "/home/alanjui/.pyenv/versions/3.9.1/envs",
+  "venvPath": "/Users/alanjui/.pyenv/versions/3.9.1/envs",
   "venv": "venv-3.9.1",
-  "reportMissingImports": true, 
+  "reportMissingImports": true,
   "pythonVersion": "3.9",
-  "exclude": [
-    "**/node_modules",
-    "**/__pycache__"
-  ]
+  "exclude": ["**/node_modules", "**/__pycache__"]
 }
