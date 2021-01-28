@@ -1,0 +1,15 @@
+{% extends "hello/layout.html" %}
+
+{% block title %}
+Log a message
+{% endblock title %}
+
+{% block content %}
+  <form method="post" class="">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="save btn btn-default">Log</button>
+  </form>
+{% endblock content %}
+
+
