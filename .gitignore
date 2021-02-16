@@ -5,6 +5,7 @@ $HOME/.config/coc/extensions/
 .svn
 .idea
 .vscode
+.git
 *.vscode
 node_modules
 ###################
@@ -20,4 +21,6 @@ static_collected/
 *.swo
 *~
 
-
+#################
+# Project
+docs/diagrams/out

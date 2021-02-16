@@ -1,0 +1,46 @@
+
+       ┌─┐
+       ║"│
+       └┬┘
+       ┌┼┐
+        │            ┌────────┐          ┌────────┐          ┌─────────┐          ┌───────────┐          ┌────────┐
+       ┌┴┐           │UserForm│          │UserView│          │UserModel│          │users_table│          │UserList│
+      User           └───┬────┘          └───┬────┘          └────┬────┘          └─────┬─────┘          └────────┘
+       │   To boundary   │                   │                    │                     │                    │
+       │ ────────────────>                   │                    │                     │                    │
+       │                 │                   │                    │                     │                    │
+       │              To control             │                    │                     │                    │
+       │ ────────────────────────────────────>                    │                     │                    │
+       │                 │                   │                    │                     │                    │
+       │                 │      To entity    │                    │                     │                    │
+       │ ────────────────────────────────────────────────────────>│                     │                    │
+       │                 │                   │                    │                     │                    │
+       │                 │                To database             │                     │                    │
+       │ ──────────────────────────────────────────────────────────────────────────────>│                    │
+       │                 │                   │                    │                     │                    │
+       │                 │                   │      To collections│                     │                    │
+       │ ────────────────────────────────────────────────────────────────────────────────────────────────────>
+      User           ┌───┴────┐          ┌───┴────┐          ┌────┴────┐          ┌─────┴─────┐          ┌────────┐
+       ┌─┐           │UserForm│          │UserView│          │UserModel│          │users_table│          │UserList│
+       ║"│           └────────┘          └────────┘          └─────────┘          └───────────┘          └────────┘
+       └┬┘
+       ┌┼┐
+        │
+       ┌┴┐
+
+@startuml
+actor User
+boundary UserForm
+control UserView
+entity UserModel
+database users_table
+collections UserList
+
+User -> UserForm    : To boundary
+User -> UserView    : To control
+User -> UserModel   : To entity
+User -> users_table : To database
+User -> UserList    : To collections
+
+@enduml
+
