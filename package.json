@@ -1,0 +1,17 @@
+{
+  "name": "manjaro-kde-guideline",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "editing": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "review": "live-server docs/.vuepress/dist",
+    "deploy": "git subtree push --prefix docs/.vuepress/dist origin gh-pages",
+    "release": ". publish.sh"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "vuepress": "^1.8.2"
+  }
+}
