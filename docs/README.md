@@ -2,83 +2,42 @@
 sidebar: auto
 ---
 
-# Manjaro KDE 安裝指引
+# 專案指引
 
 ## 簡介
 
-本指引文件用於導引使用者，如何於 Manjaro KDE 機器，建置開發環境。
+本專案用於示範：「Django 專案如何與 VuePress 整合，以 VuePress 作為專案文件製作
+工具」。
 
-## 安裝 Manjaro KDE 開發電腦
+![Manjaro KDE 桌面](assets/img/Manjaro-KDE.jpeg)
 
-- 安裝 Manjaro KDE 作業系統
-- 安裝指令作業環境
-- 安裝開發環境
-- 安裝開發工具
-
-### 安裝 Manjaro KDE 作業系統
+## 專案平台建置作業
 
 [《Manjaro KDE 作業系統安裝與設定指引》](./Manjaro_KDE_Guideline.md)
 
-### 安裝「套件管理器」
+## 專案環境建置作業
 
-[《yay 套件管理器安裝與設定指引》](./yay.md)
+- [專案產品環境建置作業](./App_Platform_Production.md)
+- [專案驗證環境建置作業](./App_Platform_Stage.md)
+- [專案整合與測試環境建置作業](./App_Platform_SIT.md)
+- [專案開發環境建置作業](./App_Dev.md)
 
-### 安裝 VirtualBox Guest Utilities
+## 應用系統組建作業（Build）
 
-[《VirtualBox Guest 安裝與設定指引》](./VirtualBox_Guest.md)
+[應用系統組建作業](./App_SW_Build.md)
 
-## 安裝指令作業環境
+## 應用系統整合與測試作業
 
-- 設定終端機作業環境
-- 安裝 Tmux 終端機工具
-- 建置及設定 SSH Key
+[應用系統整合與測試作業](./App_SIT.md)
 
-### 設定終端機作業環境
+## 應用系統安裝作業
 
-[《終端機設定指引》](./terminal.md)
+[專案軟體組建作業](./App_SW_Build.md)
 
-### 安裝 Tmux 終端機工具
+## 應用系統異常排除作業
 
-[《Tmux 安裝與設定指引》](./tmux.md)
+[應用系統異常排除作業](./App_Diag_and_Fix_Problem.md)
 
-### 建置及設定 SSH Key
+## 參考文件
 
-[《SSH Key 建置與設定指引》](./ssh.md)
-
-## 安裝開發環境
-
-- 安裝 Python 環境
-- 安裝 Node.JS 環境
-- 安裝 Lua 環境
-
-### 安裝 Python 環境
-
-[《Python 環境建置指引》](./python.md)
-
-### 安裝 Node.JS 環境
-
-[《Node.JS 環境建置指引》](./nodejs.md)
-
-### 安裝 Lua 環境
-
-[《Lua 環境建置指引》](./lua.md)
-
-## 安裝開發工具
-
-- 安裝 Vim 8 編輯器
-- 安裝 Neovim 0.5.x 編輯器
-- 安裝 Vistual Studio Code + Neovim 整合工具
-
-### 安裝 Vim 編輯器
-
-[《Vim 安裝與設定指引》](./vim.md)
-
-### 安裝 Neovim 編輯器
-
-[《Neovim 安裝與設定指引》](./neovim.md)
-
-### 安裝 Vistual Studio Code + Neovim 整合工具
-
-[《NVCode 安裝與設定指引》](./nvcode.md)
-
-![](/images/my-post-page.png)
+- [PlantUML 應用快速指引](./PlantUML.md)

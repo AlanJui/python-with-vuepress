@@ -21,4 +21,12 @@ module.exports = {
   markdown: {
     lineNumbers: true,
   },
+  configureWebpack: {
+    resolve: {
+      alias: {
+        "@uml": "./diagrams/out",
+        "@picts": "./.vuepress/public/assets/img",
+      },
+    },
+  },
 };
