@@ -11,10 +11,6 @@ sidebar: auto
 
 ![Manjaro KDE 桌面](assets/img/Manjaro-KDE.jpeg)
 
-## 專案平台建置作業
-
-[《Manjaro KDE 作業系統安裝與設定指引》](./Manjaro_KDE_Guideline.md)
-
 ## 專案環境建置作業
 
 - [專案產品環境建置作業](./App_Platform_Production.md)
@@ -22,9 +18,9 @@ sidebar: auto
 - [專案整合與測試環境建置作業](./App_Platform_SIT.md)
 - [專案開發環境建置作業](./App_Dev.md)
 
-## 應用系統組建作業（Build）
+## 應用系統組建作業
 
-[應用系統組建作業](./App_SW_Build.md)
+[應用系統軟體組建（Build）作業](./App_SW_Build.md)
 
 ## 應用系統整合與測試作業
 

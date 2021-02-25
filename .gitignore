@@ -23,4 +23,5 @@ static_collected/
 
 #################
 # Project
-docs/diagrams/out
+docs/diagrams/out/
+docs/.vuepress/dist/
