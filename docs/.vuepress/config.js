@@ -4,19 +4,13 @@ module.exports = {
   base: "/python-with-vuepress/",
   themeConfig: {
     nav: [
-      { text: "首頁", link: "/" },
-      { text: "作業系統", link: "/D01_OS/" },
-      { text: "終端機", link: "/D02_Terminal/" },
-      { text: "開發環境", link: "/D03_DevEnvironments/" },
-      { text: "開發工具", link: "/D04_DevTools/" },
+      { text: "專案文件", link: "/" },
+      { text: "作業流程", link: "/D01/" },
+      { text: "應用工具", link: "/D02/" },
+      { text: "專業知識", link: "/D03/" },
+      { text: "教育訓練", link: "/D04/" },
     ],
-    sidebar: [
-      "/",
-      "/D01_OS/",
-      "/D02_Terminal/",
-      "/D03_DevEnvironments/",
-      "/D04_DevTools/",
-    ],
+    sidebar: ["/", "/D01/", "/D02/", "/D03/", "/D04/"],
   },
   markdown: {
     lineNumbers: true,
