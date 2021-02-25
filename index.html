@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>專案指引 | Manjaro KDE 開發環境建置指引</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="如何在 Manjaro KDE 電腦建置開發環境">
+    
+    <link rel="preload" href="/python-with-vuepress/assets/css/0.styles.4d8e33c0.css" as="style"><link rel="preload" href="/python-with-vuepress/assets/js/app.070c92b2.js" as="script"><link rel="preload" href="/python-with-vuepress/assets/js/2.b40a21d6.js" as="script"><link rel="preload" href="/python-with-vuepress/assets/js/13.6c154b82.js" as="script"><link rel="prefetch" href="/python-with-vuepress/assets/js/10.f31b7c95.js"><link rel="prefetch" href="/python-with-vuepress/assets/js/11.610cce76.js"><link rel="prefetch" href="/python-with-vuepress/assets/js/12.3896a1e7.js"><link rel="prefetch" href="/python-with-vuepress/assets/js/14.8774a74c.js"><link rel="prefetch" href="/python-with-vuepress/assets/js/3.76bcbcb3.js"><link rel="prefetch" href="/python-with-vuepress/assets/js/4.58205e72.js"><link rel="prefetch" href="/python-with-vuepress/assets/js/5.99755b36.js"><link rel="prefetch" href="/python-with-vuepress/assets/js/6.fa98b136.js"><link rel="prefetch" href="/python-with-vuepress/assets/js/7.1a299492.js"><link rel="prefetch" href="/python-with-vuepress/assets/js/8.9851b8db.js"><link rel="prefetch" href="/python-with-vuepress/assets/js/9.4b66b1fe.js">
+    <link rel="stylesheet" href="/python-with-vuepress/assets/css/0.styles.4d8e33c0.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/python-with-vuepress/" aria-current="page" class="home-link router-link-exact-active router-link-active"><!----> <span class="site-name">Manjaro KDE 開發環境建置指引</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/python-with-vuepress/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  專案文件
+</a></div><div class="nav-item"><a href="/python-with-vuepress/D01/" class="nav-link">
+  作業流程
+</a></div><div class="nav-item"><a href="/python-with-vuepress/D02/" class="nav-link">
+  應用工具
+</a></div><div class="nav-item"><a href="/python-with-vuepress/D03/" class="nav-link">
+  專業知識
+</a></div><div class="nav-item"><a href="/python-with-vuepress/D04/" class="nav-link">
+  教育訓練
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/python-with-vuepress/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  專案文件
+</a></div><div class="nav-item"><a href="/python-with-vuepress/D01/" class="nav-link">
+  作業流程
+</a></div><div class="nav-item"><a href="/python-with-vuepress/D02/" class="nav-link">
+  應用工具
+</a></div><div class="nav-item"><a href="/python-with-vuepress/D03/" class="nav-link">
+  專業知識
+</a></div><div class="nav-item"><a href="/python-with-vuepress/D04/" class="nav-link">
+  教育訓練
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>專案指引</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/python-with-vuepress/#簡介" class="sidebar-link">簡介</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/python-with-vuepress/#專案環境建置作業" class="sidebar-link">專案環境建置作業</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/python-with-vuepress/#應用系統組建作業" class="sidebar-link">應用系統組建作業</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/python-with-vuepress/#應用系統整合與測試作業" class="sidebar-link">應用系統整合與測試作業</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/python-with-vuepress/#應用系統安裝作業" class="sidebar-link">應用系統安裝作業</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/python-with-vuepress/#應用系統異常排除作業" class="sidebar-link">應用系統異常排除作業</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/python-with-vuepress/#參考文件" class="sidebar-link">參考文件</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="專案指引"><a href="#專案指引" class="header-anchor">#</a> 專案指引</h1> <h2 id="簡介"><a href="#簡介" class="header-anchor">#</a> 簡介</h2> <p>本專案用於示範：「Django 專案如何與 VuePress 整合，以 VuePress 作為專案文件製作
+工具」。</p> <p><img src="assets/img/Manjaro-KDE.jpeg" alt="Manjaro KDE 桌面"></p> <h2 id="專案環境建置作業"><a href="#專案環境建置作業" class="header-anchor">#</a> 專案環境建置作業</h2> <ul><li><a href="/python-with-vuepress/App_Platform_Production.html">專案產品環境建置作業</a></li> <li><a href="/python-with-vuepress/App_Platform_Stage.html">專案驗證環境建置作業</a></li> <li><a href="/python-with-vuepress/App_Platform_SIT.html">專案整合與測試環境建置作業</a></li> <li><a href="/python-with-vuepress/App_Dev.html">專案開發環境建置作業</a></li></ul> <h2 id="應用系統組建作業"><a href="#應用系統組建作業" class="header-anchor">#</a> 應用系統組建作業</h2> <p><a href="/python-with-vuepress/App_SW_Build.html">應用系統軟體組建（Build）作業</a></p> <h2 id="應用系統整合與測試作業"><a href="#應用系統整合與測試作業" class="header-anchor">#</a> 應用系統整合與測試作業</h2> <p><a href="/python-with-vuepress/App_SIT.html">應用系統整合與測試作業</a></p> <h2 id="應用系統安裝作業"><a href="#應用系統安裝作業" class="header-anchor">#</a> 應用系統安裝作業</h2> <p><a href="/python-with-vuepress/App_SW_Build.html">專案軟體組建作業</a></p> <h2 id="應用系統異常排除作業"><a href="#應用系統異常排除作業" class="header-anchor">#</a> 應用系統異常排除作業</h2> <p><a href="/python-with-vuepress/App_Diag_and_Fix_Problem.html">應用系統異常排除作業</a></p> <h2 id="參考文件"><a href="#參考文件" class="header-anchor">#</a> 參考文件</h2> <ul><li><a href="/python-with-vuepress/PlantUML.html">PlantUML 應用快速指引</a></li></ul></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/python-with-vuepress/assets/js/app.070c92b2.js" defer></script><script src="/python-with-vuepress/assets/js/2.b40a21d6.js" defer></script><script src="/python-with-vuepress/assets/js/13.6c154b82.js" defer></script>
+  </body>
+</html>
